@@ -26,28 +26,20 @@ class Global_Var:
         self.Get_monit_info = 'https://dnsapi.cn/Monitor.Getdowns'         #查看D监控报警
         self.Get_monit_list = 'https://dnsapi.cn/Monitor.List'             #获取监控列表
 
-        self.b79_mkt = {'@':'yyweb.mktcname.com',
-                        'www':'yyweb.mktcname.com',
-                        'm':'b79_mobile.mktcname.com',
-                        '999':'b79gi.cdnp4.com',
-                        'vip':'b79_vipweb.mktcname.com',
-                        'vipm':'b79_vipmobile.mktcname.com'}
-        self.b79_pro = {'@':'218.253.216.145',
-                        'www':'218.253.216.145',
-                        'm':'b79_mobile.cdnspod.com.',
-                        '999':'b79gi.cdnspod.com.',
-                        'vip':'b79_vipweb.cdnspod.com',
-                        'vipm':'b79_vipmobile.cdnspod.com'}
-        self.e03_pro = {'@':'e03web.cdnv7.com',
-                        'www':'e03web.cdnv7.com',
-                        '999':'e03gi.cdnp4.com',
-                        'm':'e03_mobile.cdnv7.com'}
-        self.e04_pro = {'@':'e04web.cdnv8.com',
-                        'www':'e04web.cdnv8.com',
-                        '999':'e04gi.cdnp4.com',
-                        'm':'e04_mobile.cdnv8.com'}
-        self.u06_pro = {'@':'6upweb.6upcname.com.', 
-                        'www':'6upweb.6upcname.com.'}
+        self.b79_mkt = {'@':'Your parse record',
+                        'www':'Your parse record',
+                        'm':'Your parse record'}
+        self.b79_pro = {'@':'Your parse record',
+                        'www':'Your parse record',
+                        'm':'Your parse record',}
+        self.e03_pro = {'@':'Your parse record',
+                        'www':'Your parse record',
+                        'm':'Your parse record'}
+        self.e04_pro = {'@':'Your parse record',
+                        'www':'Your parse record',
+                        'm':'Your parse recordm'}
+        self.u06_pro = {'@':'Your parse record.', 
+                        'www':'Your parse record.'}
 
 class Dns_Add_Domain_Record(Global_Var):
     '''添加域名或解析'''
