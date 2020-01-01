@@ -107,23 +107,23 @@ class Procedure(Global_Var):
                    for record in record_info:
                        if record['type'] == 'CNAME' and record['name'] == 'www':
                           Records = record['id']
-                          Change_TO = 'mktxty.mktcname.com'
+                          Change_TO = 'your record'
                           running.Batch_Alter_Record(Records,Change,Change_TO,Value='')
                        if record['type'] == 'CNAME' and record['name'] == '@':
                           Records = record['id']
-                          Change_TO = 'mktxty.mktcname.com'
+                          Change_TO = 'yyour record'
                           running.Batch_Alter_Record(Records,Change,Change_TO,Value='')
                        if record['type'] == 'CNAME' and record['name'] == 'm':
                           Records = record['id']
-                          Change_TO = 'b79_mobile.mktcname.com'
+                          Change_TO = 'your recode'
                           running.Batch_Alter_Record(Records,Change,Change_TO,Value='')
                        if record['type'] == 'CNAME' and record['name'] == 'vip':
                           Records = record['id']
-                          Change_TO = 'b79_vipweb.mktcname.com'
+                          Change_TO = 'your record'
                           running.Batch_Alter_Record(Records,Change,Change_TO,Value='')
                        if record['type'] == 'CNAME' and record['name'] == 'vipm':
                           Records = record['id']
-                          Change_TO = 'b79_vipweb.mktcname.com'
+                          Change_TO = 'your record'
                           running.Batch_Alter_Record(Records,Change,Change_TO,Value='')
                 except Exception as e:
                     print(e)
