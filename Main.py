@@ -6,7 +6,7 @@ from T_dnsPod import Procedure
 from Mylogger import *
 
 def get_token(token_file):
-    pro_name = {'1': 'b79_pro', '2': 'b79_mkt', '3': 'e03_pro', '4': 'e04_pro','5':'u06_pro'}
+    pro_name = {'1': 'your_product', '2': 'your_product', '3': 'your_product', '4': 'your_product','5':'your_product'}
     name_check = All_params.input_ck(pro_name,u'产品序号')
     product = pro_name[name_check]
     load_file = All_params.load(token_file)
