@@ -54,6 +54,9 @@ class All_params(object):
 
     @staticmethod
     def load(token_file):
+        '''
+        读取加密login_token加密信息
+        '''
         with open(token_file,'rb') as f:
             while True:
               try:
@@ -64,8 +67,14 @@ class All_params(object):
                   return False
 
     @staticmethod
-    def dump(token_file):
-        with open(token_file,'ab') as f:
+    def dump():
+        '''
+        字典定义dnspod_api token 
+        dict = {'your_product_keyword':'dnsapi _logintoken'}
+        加密写入文件
+        '''
+        dict = {}
+        with open('token_file','ab') as f:
             try:
                 pickle.dump(f)
                 return True
