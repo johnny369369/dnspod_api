@@ -72,11 +72,12 @@ class All_params(object):
         字典定义dnspod_api token 
         dict = {'your_product_keyword':'dnsapi _logintoken'}
         加密写入文件
+        f是把加密后的token写入的文件
         '''
-        dict = {}
+        dict_token_api = {}
         with open('token_file','ab') as f:
             try:
-                pickle.dump(f)
+                pickle.dump(dict_token_api,f)
                 return True
             except Exception as e:
                 print(e)
